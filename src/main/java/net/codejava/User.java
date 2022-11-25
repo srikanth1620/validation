@@ -16,7 +16,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 public class User {
 
-	@Pattern(regexp = "^[a-z0-9_-]{3,15}$", message= "Username can be any combination of a-z or 0-9 or _ or - between 3 to 15 character length")
+	@Pattern(regexp = "^[a-z0-9_-]{3,15}$",message= "Invalid Entry")
 	private String name;
 
 	@Pattern(regexp="^[\\w!#$%&'*+/=?`{|}~^-]+(?:\\.[\\w!#$%&'*+/=?`{|}~^-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,6}", message = "Please enter a valid e-mail address")

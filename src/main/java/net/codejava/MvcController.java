@@ -26,7 +26,6 @@ public class MvcController {
 	public String showForm(Model model) {
 		User user = new User();
 		model.addAttribute("user", user);
-		
 		return "register_form";
 	}
 	
