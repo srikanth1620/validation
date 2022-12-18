@@ -16,9 +16,9 @@
 <body>
 	<div align="center">
 		<h2>Registration Succeeded!</h2>
-		<span>Full name:</span><span>${user.name}</span><br/>
-		<span>E-mail:</span><span>${user.email}</span><br/>
-		<span>SSN:</span><span>${user.ssn}</span><br/>
+		<span>Full name:</span><span>${user1000.name}</span><br/>
+		<span>E-mail:</span><span>${user1000.email}</span><br/>
+		<span>SSN:</span><span>${user1000.ssn}</span><br/>
 	</div>
 </body>
 </html>

@@ -25,12 +25,12 @@ public class MvcController {
 	@GetMapping("/register")
 	public String showForm(Model model) {
 		User user = new User();
-		model.addAttribute("user", user);
+		model.addAttribute("user1000", user);
 		return "register_form";
 	}
 	
 	@PostMapping("/register")
-	public String submitForm(@Valid @ModelAttribute("user") User user,
+	public String submitForm(@Valid @ModelAttribute("user1000") User user,
 			BindingResult bindingResult, Model model) {
 		System.out.println("Professing form...");
 		System.out.println(user);

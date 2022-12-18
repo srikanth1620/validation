@@ -39,7 +39,7 @@
 <body>
 	<div align="center">
 		<h2>User Registration</h2>
-		<form:form action="register" method="post" modelAttribute="user">
+		<form:form action="register" method="post" modelAttribute="user1000">
 			<div>
 			<form:label path="name">Username:</form:label>
 			<form:input path="name" />
